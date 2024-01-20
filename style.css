@@ -1,0 +1,211 @@
+* {
+  margin: 0px 0px 0px 0px;
+}
+#navbar {
+  height: 45px;
+  width: 98%;
+  background-color: rgb(19, 25, 33);
+  padding: 10px 20px 10px 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+#logo {
+  height: 50px;
+  width: 100px;
+  background: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB587940754_.png);
+  background-size: 310px 550px;
+  background-position: 0 1599px;
+}
+#searchbar {
+  height: 30px;
+  width: 600px;
+}
+#Search {
+  height: 36px;
+}
+#Search:hover {
+  background-color: rgb(255, 188, 74);
+}
+select {
+  background-color: rgb(255, 188, 74);
+  height: 20px;
+  margin-top: 10px;
+}
+select:hover {
+  background-color: rgb(243, 168, 71);
+}
+#cart {
+  padding-top: 5px;
+}
+#trending {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(35, 47, 62);
+  margin-top: 65.5px;
+  left: 0px;
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.trend {
+  width: 80%;
+  padding: 10px;
+}
+
+.sale {
+  background-image: url(sale.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+.offers {
+  background-color: rgb(227, 230, 230);
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 5px 0px 15px 0px;
+}
+.box-content {
+  margin: 0px 10px 0px 10px;
+}
+.box-image1 {
+  height: 300px;
+  margin: 10px 0px 10px 0px;
+  background-size: cover;
+}
+.box-content2 {
+  margin: 0px 10px;
+}
+.box-image2 {
+  height: 300px;
+  background-size: cover;
+  margin: 10px 0px;
+}
+.box-content3 {
+  margin: 0px 10px;
+}
+.box-image3 {
+  height: 300px;
+  background-size: cover;
+  margin: 10px 0px;
+}
+.box-content4 {
+  margin: 0px 10px;
+}
+.box-image4 {
+  height: 300px;
+  background-size: cover;
+  margin: 10px 0px;
+}
+.offers2 {
+  background-color: rgb(227, 230, 230);
+  height: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 5px 0px 15px 0px;
+}
+.box-content5 {
+  margin: 0px 10px 0px 10px;
+}
+.box-image1 {
+  height: 300px;
+  margin: 10px 0px 10px 0px;
+  background-size: cover;
+}
+.box-content6 {
+  margin: 0px 10px;
+}
+.box-image2 {
+  height: 300px;
+  background-size: cover;
+  margin: 10px 0px;
+}
+.box-content7 {
+  margin: 0px 10px;
+}
+.box-image3 {
+  height: 300px;
+  background-size: cover;
+  margin: 10px 0px;
+}
+.box-content8 {
+  margin: 0px 10px;
+}
+.box-image4 {
+  height: 300px;
+  background-size: cover;
+  margin: 10px 0px;
+}
+.footer-panel-1 {
+  height: 50px;
+  background-color: rgb(56, 75, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btt {
+  color: white;
+}
+.footer-panel-1:hover {
+  background-color: rgb(72, 87, 105);
+}
+.footer-panel-2 {
+  height: 330px;
+  background-color: rgb(35, 47, 62);
+  padding: 60px 120px 0px 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  display: contents;
+  align-content: flex-start;
+}
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+#Heading1 {
+  color: white;
+}
+#Heading2 {
+  color: white;
+}
+#Heading3 {
+  color: white;
+}
+#Heading4 {
+  color: white;
+}
+.footer-panel-3 {
+  height: 35px;
+  background-color: #131a22;
+  color: white;
+  font-size: 14px;
+  border-top: 0.4px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
