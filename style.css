@@ -3,26 +3,28 @@
 }
 #navbar {
   height: 45px;
-  width: 98%;
+  width: 100%;
   background-color: rgb(19, 25, 33);
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 0px;
   position: fixed;
   top: 0px;
   left: 0px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-a {
-  color: white;
-  text-decoration: none;
-}
-#logo {
+.logo{
   height: 50px;
   width: 100px;
-  background: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB587940754_.png);
-  background-size: 310px 550px;
-  background-position: 0 1599px;
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+}
+.location{
+  color: white;
+}
+#location-dn{
+  font-weight: 800;
+  font-size: 1.3rem;
 }
 #searchbar {
   height: 30px;
@@ -44,6 +46,10 @@ select:hover {
 }
 #cart {
   padding-top: 5px;
+}
+a{
+  color: white;
+  text-decoration: none;
 }
 #trending {
   height: 40px;
